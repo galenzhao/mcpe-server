@@ -1,6 +1,7 @@
 #!/bin/bash
 mkdir /data
 cd /data
+echo 'data files:'
 find .
 cp /root/app/{server,LICENSE} .
 mkdir lib
